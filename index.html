@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <span class="tab">
+        <br>
+        <label for ="login">Login</label>
+        <input type = "text" name = "logint" onchange="checkFilled(this);" id = "" required ><br>
+        
+        <label for ="password">Password</label>
+        <input type = "password" name = "passwordt" onchange="checkFilled(this);"id = "" required><br>
+               
+        <label for ="passwordt">Confirm Password</label>
+        <input type = "password" name = "passwordtc" onchange="checkFilled(this);"id = "" required><br>
+         
+        <label for="gender">Gender</label>
+        <select name="gendert" id = "gender" required>
+          <option value = "0">Male</option>
+          <option value = "1">Female</option>
+          </select><br>
+          
+          <label for ="email">Email</label>
+          <input type = "email" name = "emailt"onchange="checkFilled(this);" id = "" required><br>
+                          
+          <input type="button" value="Register" onclick="save()">
+</span>
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>

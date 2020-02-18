@@ -1,0 +1,10 @@
+input { margin-bottom: 10px; }
+select { margin-bottom: 10px; }
+label{width:125px; display:inline-block;}
+input[type="button"]{height:40px;width: 80px;}
+input[type="text"],input[type="email"],input[type="password"]{
+background-color: #f46666; height: 20px; border:1px solid lightgreen;
+}
+select{width:160px;height:20px;}
+body{background-color: #585858; color:white;}
+.tab {left:50px; }
